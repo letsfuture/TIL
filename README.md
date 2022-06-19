@@ -8,6 +8,7 @@
 ### 00_CrashCourse
 
 [01_md_grammar](https://github.com/letsfuture/TIL/blob/master/00_CrashCourse/01_md_grammar.md)
+[02_git_grammar](https://github.com/letsfuture/TIL/blob/master/00_CrashCourse/02_git_grammar.md)
 
 ### 01_Python
 
