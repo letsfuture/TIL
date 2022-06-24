@@ -18,7 +18,7 @@
 
 [01_data_preprocessing](https://github.com/letsfuture/TIL/blob/master/03_Pandas/01_data_preprocessing.md)<br>
 [02_application_of_dataframe](https://github.com/letsfuture/TIL/blob/master/03_Pandas/02_application_of_dataframe.md)<br>
-[03_matplotlib](https://github.com/letsfuture/TIL/blob/master/03_Pandas/03_matplotlib.md)<br>
+[03_matplotlib](https://github.com/letsfuture/TIL/blob/master/03_Pandas/03_matplotlib.md)<br>[04_seaborn](https://github.com/letsfuture/TIL/blob/master/03_Pandas/04_seaborn..md)<br>
 
 ### 04_Crawling
 
