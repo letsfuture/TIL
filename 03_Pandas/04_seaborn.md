@@ -126,9 +126,9 @@ sns.barplot(x='sex', y='survived', hue='class', dodge=False, data=titanic, ax=ax
   sns.countplot(x='class', hue='who', palette='Set3', dodge=False, data=titanic, ax=ax3)
   ```
 
-  - `dodge=False` 옵션 추가(축 방향으로 분리하지 않고 누적 그래프 출력)
+  ![image-20220623210309423](images/image-20220623210309423.png)
 
-    ![image-20220623210309423](images/image-20220623210309423.png)
+  - `dodge=False` 옵션 추가(축 방향으로 분리하지 않고 누적 그래프 출력)
 
 <br>
 
@@ -160,7 +160,7 @@ sns.barplot(x='sex', y='survived', hue='class', dodge=False, data=titanic, ax=ax
 
 ## 8. jointplot()
 
-- 산점도를 기본을 ㅗ표시하고, x-y축에 각 변수에 대한 히스토그램을 동시에 보여줌.
+- 산점도를 기본을 표시하고, x-y축에 각 변수에 대한 히스토그램을 동시에 보여줌.
 
 - 두 변수의 관계와 데이터가 분산되어 있는 정도를 한눈에 파악하기 좋음.
 
