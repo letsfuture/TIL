@@ -213,3 +213,7 @@ sns.barplot(x='sex', y='survived', hue='class', dodge=False, data=titanic, ax=ax
   ```
 
 <br>
+
+# [참고 자료]
+
+- 오승환, 『파이썬 머신러닝 판다스 데이터 분석』, 정보문화사(2019), p.147-160
