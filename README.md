@@ -25,3 +25,9 @@
 
 ### 05_Algorithm
 
+### 06_MachineLearning
+
+### 07_LinearAlgebra
+
+### 08_Statistics
+
