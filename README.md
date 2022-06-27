@@ -26,6 +26,7 @@
 ### 05_Algorithm
 
 ### 06_MachineLearning
+[01_ml_basic](https://github.com/letsfuture/TIL/blob/master/06_MachineLearning/01_ml_basic.md)
 
 ### 07_LinearAlgebra
 
