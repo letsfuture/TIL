@@ -14,7 +14,7 @@
 
 ### 02_Numpy
 
-[00_numpy_basic](https://github.com/letsfuture/TIL/blob/master/02_Numpy/)<br>
+[00_numpy_basic](https://github.com/letsfuture/TIL/blob/master/02_Numpy/00_numpy_basic.md)<br>
 
 ### 03_Pandas
 
