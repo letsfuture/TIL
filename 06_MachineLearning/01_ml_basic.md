@@ -170,5 +170,5 @@
 
 # [참고 자료]
 
-- 예비개발자, <머신러닝 - 과대적합(overfitting)과 과소적합(underfitting), 정규화>, <<개발자의 개발 정보와 리뷰>>, 2018.07.22, https://m.blog.naver.com/qbxlvnf11/221324122821
+- 예비개발자. "머신러닝 - 과대적합(overfitting)과 과소적합(underfitting), 정규화". 개발자의 개발 정보와 리뷰(블로그). 2018년 07월 22일. https://m.blog.naver.com/qbxlvnf11/221324122821
 
