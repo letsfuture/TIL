@@ -12,7 +12,7 @@
    - Random Forest
    - Support Vector Machine
    - ANN(Articifial Neural Network)
-2. **추정(Estimation)** :point_right: y가 연속값
+2. **회귀분석(regression)** :point_right: y가 연속값
    - Linear Regressior(Stepwise)
    - Regularized Linear Regression
    - Regression Tree

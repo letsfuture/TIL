@@ -25,7 +25,6 @@ x[:, 1:3] = imp_mean.transform(x[:, 1:3])
 ### 1) 표준화(Standardization)
 
 - 값의 분포를 평균이 0이고 분산이 1인 가우시안 정규분포를 가진 값으로 변환
-- -1과 1사이의 값을 가짐.
 
 ```python
 from sklearn.preprocessing import StandardScaler
@@ -117,6 +116,6 @@ print('예측 정확도: {0:.4f}'.format(accuracy_score(y_test,pred)))
 
 <br>
 
-# 참고 자료
+# [참고 자료]
 
-권철민. "fit & transform 과 fit_transform의 차이가 무엇인가요?". Inflearn. 2020년 01월 04일. https://www.inflearn.com/questions/19038
+- 권철민. "fit & transform 과 fit_transform의 차이가 무엇인가요?". Inflearn. 2020년 01월 04일. https://www.inflearn.com/questions/19038
