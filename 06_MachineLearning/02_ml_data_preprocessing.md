@@ -3,7 +3,7 @@
 ## 1. 누락 데이터 처리
 
 ```python
-from sklearn.model_selection import train_test_split # train, test 분류를 쉽게 하기 위한 모듈
+from sklearn.model_selection import train_test_split # train data와 test data를 쉽게 나누기 위한 모듈
 from sklearn.impute import SimpleImputer             # 결측 데이터를 쉽게 대체하기 위한 모듈
 ```
 
