@@ -63,6 +63,8 @@ $$
   ```
   
 
+<br>
+
 ### 2) 다항회귀분석(Polynomial Regression)
 
 $$
