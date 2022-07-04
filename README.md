@@ -15,6 +15,7 @@
 ### 02_Numpy
 
 [00_numpy_basic](https://github.com/letsfuture/TIL/blob/master/02_Numpy/00_numpy_basic.md)<br>
+[01_random](https://github.com/letsfuture/TIL/blob/master/02_Numpy/01_random.md)<br>
 
 ### 03_Pandas
 
