@@ -52,6 +52,27 @@ X_train, X_test, y_train, y_test = train_test_split(x, y,
                                                     random_state=42)
 ```
 
+### 3) 기타
+
+```python
+from sklearn.preprocessing import scale
+from sklearn.preprocessing import robust_scale
+from sklearn.preprocessing import minmax_scale
+```
+
+1. `scale(x)`
+
+   - 표준 정규분포를 사용해 표준화
+   - 평균이 0이고, 표준편차가 1이 되도록 표준화
+2. `robust_scale(x)` 
+
+   - 중위수(median)와 사분위범위(interquartile range)를 사용해 표준화
+   - 0과 1사이의 값을 가짐.
+3. `maxabs_scale(x)` 
+
+   - 최대 절댓값을 사용하여 표준화하는 것으로 -1과 1사이의 값을 가짐.
+- 음수 부호를 그대로 유지하며, 희소성을 손상시키지 않음.
+
 <br>
 
 ## 3. fit(), transform(), fit_transform()의 차이
@@ -113,6 +134,38 @@ lr.fit(scaled_X_train, y_train)
 pred = lr.predict(scaled_X_test)
 print('예측 정확도: {0:.4f}'.format(accuracy_score(y_test,pred)))
 ```
+
+<br>
+
+## 4. 인코딩
+
+### 1) 레이블 인코딩(Label Encoding)
+
+- 실제 값에 상관없이 0 ~ K-1까지의 정수로 변환하는 것
+
+| 메서드               | 설명                                                 |
+| -------------------- | ---------------------------------------------------- |
+| fit(y)               | 레이블 인코더 모델 생성                              |
+| fit_transform(y)     | 레이블 인코더 모델을 생성하고 인코드된 레이블을 반환 |
+| get_params([deep])   | 매개변수를 반환                                      |
+| inverse_transform(y) | 레이블을 원래 인코딩으로 다시 변환                   |
+| set_params(**params) | 매개변수를 설정                                      |
+| transform(y)         | 라벨을 표준화된 인코딩으로 변환                      |
+
+### 2) 원-핫 인코딩(One-Hot Encoding)
+
+- 클래스의 수만큼 0 또는 1을 갖는 열을 이용해서 데이터를 표현
+- OneHotEncoder를 사용하더라도, LabelEncoder 과정을 거쳐서 레이블에 인코딩 값을 할당시켜줘야 함.
+
+### 3) get_dummies()
+
+- One-Hot Encoding으로도 가능하지만, pandas의 `get_dummies()` 기능을 활용해 인코딩을 할 수 있음.
+
+### 4) 평균값 인코딩
+
+- 평균값 인코딩은 레이블 값을 수치적으로 표현하면서도 서로 구분할 수 있음.
+- One-Hot Encoding의 문제인 차원의 저주를 피할 수 있음.
+- 비교적 빠른 학습이 가능하며, 예측값에 좀 더 가깝게 학습된다는 장점이 있음.
 
 <br>
 
