@@ -38,4 +38,4 @@
 ### 07_LinearAlgebra
 
 ### 08_Statistics
-
+[01_regression](https://github.com/letsfuture/TIL/blob/master/08_Statistics/01_regression.md)<br>
