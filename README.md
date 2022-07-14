@@ -11,6 +11,7 @@
 [02_git_grammar](https://github.com/letsfuture/TIL/blob/master/00_CrashCourse/02_git_grammar.md)<br>
 [03_html_1](https://github.com/letsfuture/TIL/blob/master/00_CrashCourse/03_html_1.md)<br>
 [03_html_2](https://github.com/letsfuture/TIL/blob/master/00_CrashCourse/03_html_2.md)<br>
+[04_ds_1](https://github.com/letsfuture/TIL/blob/master/00_CrashCourse/04_ds_1.md)
 ### 01_Python
 
 ### 02_Numpy
